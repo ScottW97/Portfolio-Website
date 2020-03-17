@@ -1,0 +1,54 @@
+.skillb {
+    text-align: center;
+    list-style-type: none;
+    background-color: $NavyBlue;
+    color: $WarmYellow;
+
+
+    a {
+        vertical-align: middle;
+        transition: 0.5s;
+        font-weight: bold;
+        width: 585px;
+        height: 350px;
+        padding: 2rem 0rem;
+        display: table-cell;
+        font-size: 2rem;
+        color: $WarmYellow;
+    }
+
+    :hover {
+        transition: 0.5s;
+        background-color: $WarmYellow;
+        color: $RustyRed;
+
+    }
+
+}
+
+.intb {
+    text-align: center;
+    list-style-type: none;
+    background-color: $NavyBlue;
+    color: $WarmYellow;
+
+
+    a {
+        vertical-align: middle;
+        transition: 0.5s;
+        font-weight: bold;
+        width: 1170px;
+        height: 350px;
+        padding: 2rem 0rem;
+        display: table-cell;
+        font-size: 2rem;
+        color: $WarmYellow;
+    }
+
+    :hover {
+        transition: 0.5s;
+        background-color: $WarmYellow;
+        color: $RustyRed;
+
+    }
+}

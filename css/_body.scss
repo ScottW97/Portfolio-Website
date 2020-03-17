@@ -1,0 +1,32 @@
+.sectionborder {
+    display: flex;
+    justify-content: center;
+    background: $GunMetal;
+    transition: 0.3s;
+    margin-left: -100%;
+    margin-right: -100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.background {
+    background-color: $WarmYellow;
+}
+
+
+.swcontain {
+    width: 1170px;
+    margin: auto;
+}
+
+.swbody {
+    background-color: $ColdYellow;
+    overflow: hidden;
+    transition: background-color 1s ease;
+}
+
+.swcontact {
+    list-style-type: none;
+    padding: 0;
+    font-style: italic;
+}

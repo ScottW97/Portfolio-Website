@@ -1,0 +1,72 @@
+@import "colours";
+@import "universal";
+@import "body";
+@import "header";
+@import "work";
+@import "skills";
+@import "projects";
+@import "footer";
+@import "stickyheader";
+
+.color-yellow {
+    background-color: $ColdYellow;
+}
+
+.color-orange {
+    background-color: $ColdOrange;
+}
+
+.color-red {
+    background-color: $ColdRed;
+}
+
+.color-violet {
+    background-color: $ColdViolet;
+}
+
+.color-indigo {
+    background-color: $ColdIndigo;
+}
+
+.color-blue {
+    background-color: $ColdBlue;
+}
+
+
+
+
+.cns {
+    a {
+        background-color: $CNSBlue;
+        color: $CNSWhite;
+    }
+
+    :hover {
+        background-color: $CNSWhite;
+        color: $CNSOrange;
+    }
+}
+
+.ccn {
+    a {
+        background-color: $CCNPurple;
+        color: $CCNYellow;
+    }
+
+    :hover {
+        background-color: $CCNYellow;
+        color: $CCNRed;
+    }
+}
+
+.nm {
+    a {
+        background-color: $NMLightGrey;
+        color: white;
+    }
+
+    :hover {
+        background-color: white;
+        color: $NMDarkGrey;
+    }
+}

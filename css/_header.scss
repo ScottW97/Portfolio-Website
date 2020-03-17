@@ -1,0 +1,47 @@
+.mainheading {
+    text-align: center;
+    font-size: 4.75rem;
+    margin: 0;
+    padding: 1.5rem;
+    text-shadow: 4px 4px 1px $RustyRed;
+}
+
+.swborder {
+    display: flex;
+    justify-content: center;
+    background: $GunMetal;
+}
+
+.bdr {
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.navb {
+    text-align: center;
+    list-style-type: none;
+    border-color: $GunMetal;
+    border-style: solid;
+    border-width: 1px;
+    background-color: $NavyBlue;
+
+
+
+    a {
+        transition: 0.5s;
+        font-weight: bold;
+        width: 165.5px;
+        padding: 2rem 0rem;
+        display: block;
+        color: $WarmYellow;
+        font-size: 1.25rem;
+    }
+
+    :hover {
+        transition: 0.5s;
+        background-color: $WarmYellow;
+        color: $RustyRed;
+    }
+
+}

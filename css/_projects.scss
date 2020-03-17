@@ -1,0 +1,36 @@
+.projectb {
+    text-align: center;
+    list-style-type: none;
+
+    a {
+        vertical-align: middle;
+        transition: 0.5s;
+        font-weight: bold;
+        width: 585px;
+        height: 350px;
+        padding: 2rem 0rem;
+        display: table-cell;
+        font-size: 3rem;
+        opacity: 0;
+    }
+
+    :hover {
+        transition: 0.5s;
+        background-color: $WarmYellow;
+        color: $RustyRed;
+        opacity: 1;
+    }
+
+}
+
+.HTMLRef {
+    background:
+        url("/img/Netmatters-Example.png") no-repeat center;
+    background-size: cover;
+}
+
+.JSChallenge {
+    background:
+        url("/img/JS-Example.png") no-repeat center;
+    background-size: cover;
+}

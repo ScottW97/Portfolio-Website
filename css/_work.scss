@@ -1,0 +1,90 @@
+.workb {
+    text-align: center;
+    list-style-type: none;
+    background-color: $NavyBlue;
+
+
+    a {
+        transition: 0.5s;
+        font-weight: bold;
+        width: 388px;
+        height: 350px;
+        padding: 2rem 2.5rem;
+        display: table-cell;
+        vertical-align: middle;
+        color: $WarmYellow;
+        font-size: 2rem;
+    }
+
+    :hover {
+        transition: 0.5s;
+        background-color: $WarmYellow;
+        color: $RustyRed;
+    }
+
+}
+
+.tesco {
+    a {
+        background-color: $TescoRed;
+        color: white;
+    }
+
+    :hover {
+        background-color: white;
+        color: $TescoBlue;
+    }
+}
+
+.lep {
+    a {
+        background-color: $LepLightPurple;
+        color: white;
+    }
+
+    :hover {
+        background-color: white;
+        color: $LepDarkPurple;
+    }
+}
+
+.dwp {
+    a {
+        background-color: $DWPLightGreen;
+        color: white;
+    }
+
+    :hover {
+        background-color: white;
+        color: $DWPDarkGreen;
+    }
+}
+
+.hoverpanel {
+    a:hover {
+
+
+        .static {
+            content: none;
+            transition: 0.3s;
+            font-size: 0;
+            opacity: 0;
+        }
+
+        .hover {
+            transition: 0.3s;
+            font-size: 1.5rem;
+            opacity: 1;
+        }
+    }
+
+    a:hover:after {
+        width: 1px;
+        font-size: 1.5rem;
+    }
+}
+
+.hover {
+    font-size: 0;
+    opacity: 0;
+}

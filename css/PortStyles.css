@@ -1,0 +1,378 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: #984B43;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #233237;
+}
+
+h2 {
+  margin: 0;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.sectionborder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #233237;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-left: -100%;
+  margin-right: -100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.background {
+  background-color: #EAC67A;
+}
+
+.swcontain {
+  width: 1170px;
+  margin: auto;
+}
+
+.swbody {
+  background-color: #eee1c6;
+  overflow: hidden;
+  -webkit-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+.swcontact {
+  list-style-type: none;
+  padding: 0;
+  font-style: italic;
+}
+
+.mainheading {
+  text-align: center;
+  font-size: 4.75rem;
+  margin: 0;
+  padding: 1.5rem;
+  text-shadow: 4px 4px 1px #984B43;
+}
+
+.swborder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #233237;
+}
+
+.bdr {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.navb {
+  text-align: center;
+  list-style-type: none;
+  border-color: #233237;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #18121E;
+}
+
+.navb a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: bold;
+  width: 165.5px;
+  padding: 2rem 0rem;
+  display: block;
+  color: #EAC67A;
+  font-size: 1.25rem;
+}
+
+.navb :hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #EAC67A;
+  color: #984B43;
+}
+
+.workb {
+  text-align: center;
+  list-style-type: none;
+  background-color: #18121E;
+}
+
+.workb a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: bold;
+  width: 388px;
+  height: 350px;
+  padding: 2rem 2.5rem;
+  display: table-cell;
+  vertical-align: middle;
+  color: #EAC67A;
+  font-size: 2rem;
+}
+
+.workb :hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #EAC67A;
+  color: #984B43;
+}
+
+.tesco a {
+  background-color: #EE1C2E;
+  color: white;
+}
+
+.tesco :hover {
+  background-color: white;
+  color: #00539F;
+}
+
+.lep a {
+  background-color: #73527C;
+  color: white;
+}
+
+.lep :hover {
+  background-color: white;
+  color: #372741;
+}
+
+.dwp a {
+  background-color: #00BEB7;
+  color: white;
+}
+
+.dwp :hover {
+  background-color: white;
+  color: #37807B;
+}
+
+.hoverpanel a:hover .static {
+  content: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 0;
+  opacity: 0;
+}
+
+.hoverpanel a:hover .hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.5rem;
+  opacity: 1;
+}
+
+.hoverpanel a:hover:after {
+  width: 1px;
+  font-size: 1.5rem;
+}
+
+.hover {
+  font-size: 0;
+  opacity: 0;
+}
+
+.skillb {
+  text-align: center;
+  list-style-type: none;
+  background-color: #18121E;
+  color: #EAC67A;
+}
+
+.skillb a {
+  vertical-align: middle;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: bold;
+  width: 585px;
+  height: 350px;
+  padding: 2rem 0rem;
+  display: table-cell;
+  font-size: 2rem;
+  color: #EAC67A;
+}
+
+.skillb :hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #EAC67A;
+  color: #984B43;
+}
+
+.intb {
+  text-align: center;
+  list-style-type: none;
+  background-color: #18121E;
+  color: #EAC67A;
+}
+
+.intb a {
+  vertical-align: middle;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: bold;
+  width: 1170px;
+  height: 350px;
+  padding: 2rem 0rem;
+  display: table-cell;
+  font-size: 2rem;
+  color: #EAC67A;
+}
+
+.intb :hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #EAC67A;
+  color: #984B43;
+}
+
+.projectb {
+  text-align: center;
+  list-style-type: none;
+}
+
+.projectb a {
+  vertical-align: middle;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: bold;
+  width: 585px;
+  height: 350px;
+  padding: 2rem 0rem;
+  display: table-cell;
+  font-size: 3rem;
+  opacity: 0;
+}
+
+.projectb :hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #EAC67A;
+  color: #984B43;
+  opacity: 1;
+}
+
+.HTMLRef {
+  background: url("/img/Netmatters-Example.png") no-repeat center;
+  background-size: cover;
+}
+
+.JSChallenge {
+  background: url("/img/JS-Example.png") no-repeat center;
+  background-size: cover;
+}
+
+.links {
+  font-size: 0.875rem;
+  padding: 1.5rem 0 1.5rem;
+  background-color: #233237;
+  color: #eee1c6;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.links a {
+  color: #eee1c6;
+}
+
+.links ul {
+  padding: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.links ul li {
+  padding: 0 0.5rem;
+}
+
+#navbar {
+  position: fixed;
+  display: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.sticky {
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+
+.color-yellow {
+  background-color: #eee1c6;
+}
+
+.color-orange {
+  background-color: #eed5c6;
+}
+
+.color-red {
+  background-color: #eec6c6;
+}
+
+.color-violet {
+  background-color: #edc6ee;
+}
+
+.color-indigo {
+  background-color: #d2c6ee;
+}
+
+.color-blue {
+  background-color: #c6deee;
+}
+
+.cns a {
+  background-color: #224778;
+  color: #fcfcfc;
+}
+
+.cns :hover {
+  background-color: #fcfcfc;
+  color: #f1a93f;
+}
+
+.ccn a {
+  background-color: #923A8E;
+  color: #F6A200;
+}
+
+.ccn :hover {
+  background-color: #F6A200;
+  color: #E42313;
+}
+
+.nm a {
+  background-color: #333645;
+  color: white;
+}
+
+.nm :hover {
+  background-color: white;
+  color: #22242e;
+}
+/*# sourceMappingURL=PortStyles.css.map */

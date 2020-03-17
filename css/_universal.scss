@@ -1,0 +1,21 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: $RustyRed;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-size: 1.25rem;
+    color: $GunMetal;
+}
+
+h2 {
+    margin: 0;
+    padding: 1.5rem 0 1.5rem 0;
+}
